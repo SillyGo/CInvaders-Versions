@@ -5,6 +5,7 @@
 #define dc   9
 #define rst  8
 
+//this is some of the ugliest code i think i have ever written, i i've written a LOT of bad code
 typedef struct { float x; float y; } bullet;
 typedef struct { float x; float y; } alien;
 typedef struct { float x; float y; float xl; float yl; } player;
